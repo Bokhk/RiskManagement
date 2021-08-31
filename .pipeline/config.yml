@@ -1,0 +1,15 @@
+# Project configuration
+general:
+  projectName: 'RiskManagement15'
+  productiveBranch: 'main'
+
+# Stage configuration
+stages:
+  productionDeployment:
+    cfTargets:
+    - org: 'btpkrptn-b0rhe9cm'
+      space: 'cls01'
+      appName: 'RiskManagement15'
+      apiEndpoint: 'https://api.cf.ap12.hana.ondemand.com
+'
+      credentialsId: 'bokhk'
