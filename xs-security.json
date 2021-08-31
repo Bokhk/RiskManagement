@@ -1,0 +1,33 @@
+{
+  "xsappname": "RiskManagement15",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.RiskViewer15",
+      "description": "RiskViewer15"
+    },
+    {
+      "name": "$XSAPPNAME.RiskManager15",
+      "description": "RiskManager15"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "RiskViewer15",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.RiskViewer15"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "RiskManager15",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.RiskManager15"
+      ],
+      "attribute-references": []
+    }
+  ]
+}
